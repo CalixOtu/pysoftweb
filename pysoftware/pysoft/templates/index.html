@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pysoftware</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+{% block content %}
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center p-6 m-4 max-w-lg w-full bg-white rounded-lg shadow-md">
+        <h1 class="text-3xl font-semibold text-gray-800 mb-4">Home Page</h1>
+        <a href="{% url 'dashboard' %}"
+           class="mt-4 inline-block px-6 py-2 text-lg text-white bg-blue-600 hover:bg-blue-700 rounded-full transition duration-200">
+            Go to Dashboard
+        </a>
+    </div>
+</body>
+{% endblock content %}
+</html>
