@@ -1,5 +1,5 @@
 # pysoftweb
-This webapp gets any pdf file and tries to deduce questions and options from A to E. It adds them to the database and those added can be modified or deleted...
+This simple django webapp gets any pdf file and tries to extract questions and options from A to E from the pdf. It adds them to the database and those added can be modified or deleted...
 visit https://pysoft.pythonanywhere.com/dashboard/ to test it out live
 
 #NOTE
